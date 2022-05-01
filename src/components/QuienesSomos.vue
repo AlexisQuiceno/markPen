@@ -1,5 +1,6 @@
 <template>
 <div>
+	
 	<!-- component -->
 	<div class="drop-shadow-md9">
 		<section class="text-blueGray-700 bg-white mt-20 ">
