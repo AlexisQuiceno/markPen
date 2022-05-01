@@ -1,18 +1,18 @@
 <template>
-    <div>
-      <p v-for="(item,index) in personas" :key="index.id">{{item.nombre}}</p>
-        <ServiciosComponets/>
+    <div class="tamanio"> 
+    <br>
+      <p>{{prueba}}</p>
+      <ServiciosComponets/>
     </div> 
 </template>
 
-<script lang="ts">
+<script >
 import ServiciosComponets from '@/components/ServiciosComponets.vue'
-import {mapState} from 'vuex'
-
+import { mapState } from 'vuex'
 
 export default {
    computed: {
-    ...mapState( ['personas'] )
+    ...mapState(['prueba'] )
   },
 
   components: {
@@ -22,3 +22,8 @@ export default {
 
 
 </script>
+
+<style scoped>
+
+
+</style>
