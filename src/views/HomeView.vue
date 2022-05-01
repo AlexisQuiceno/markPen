@@ -1,18 +1,33 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+<div >
+  <div class="position">
+    <slider-component class="tamanio"/>
   </div>
+  <CardImagenes/>
+</div>
+ 
 </template>
 
 <script lang="ts">
-import { Options, Vue } from 'vue-class-component';
-import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
+import CardImagenes from '@/components/CardImagenes.vue';
+import SliderComponent from '@/components/SliderComponent.vue';
 
-@Options({
+export default {
   components: {
-    HelloWorld,
+    CardImagenes,
+    SliderComponent,
   },
-})
-export default class HomeView extends Vue {}
+}
+
 </script>
+<style scoped>
+
+.tamanio{
+  width: 65%; 
+}
+.position{
+  display: flex;
+  justify-content: center;
+}
+</style>
+
