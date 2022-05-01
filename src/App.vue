@@ -1,15 +1,17 @@
 <template>
-  <nav>
-    <router-link to="/inicio">INICIO</router-link>  |  
-    <router-link to="/contactenos">CONTACTENOS</router-link>  |  
-    <router-link to="/servicios">SERVICIOS</router-link>  |  
-    <router-link to="/productos">PRODUCTOS</router-link>  |  
-    <router-link to="/nosotros">NOSOTROS</router-link>  |  
-  </nav>
-  <router-view class="con"/>
-  <footer>
-    <FooterCom/>
-  </footer>
+<div>
+    <nav>
+      <router-link to="/inicio">INICIO</router-link>  |  
+      <router-link to="/contactenos">CONTACTENOS</router-link>  |  
+      <router-link to="/servicios">SERVICIOS</router-link>  |  
+      <router-link to="/productos">PRODUCTOS</router-link>  |  
+      <router-link to="/nosotros">NOSOTROS</router-link>  |  
+    </nav>
+    <router-view class="con"/>
+    <footer>
+      <FooterCom/>
+    </footer>
+</div>
 </template>
 
 <style scoped >
@@ -34,6 +36,7 @@ nav {
   left: 0;
   top: 0;
   right: 0;
+  z-index: 11;
 
 }
 
