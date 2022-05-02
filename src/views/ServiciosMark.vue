@@ -24,7 +24,8 @@ export default {
 </script>
 
 <style scoped>
-
+.tamanio{
+}
 
 
 </style>
