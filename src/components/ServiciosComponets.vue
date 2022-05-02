@@ -2,8 +2,8 @@
 <div class="tar">
   <div class="tamanio">
     <div v-for="(prueba, index) in cards" :key="index.id" class="pad">  
-        <div class="rounded overflow-hidden shadow-lg">
-        <img class="w-9/12" :src='prueba.imagen' :alt='prueba.imagen'>
+        <div class="rounded overflow-hidden shadow-lg bg-zinc-400">
+        <img class="w-9/12 cer" :src='prueba.imagen' :alt='prueba.imagen'>
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">{{ prueba.titulo }}</div>
           <p class="text-gray-700 text-base">{{prueba.description}}</p>
@@ -36,8 +36,19 @@ export default {
   grid-template-rows: repeat(2,1fr);
   margin: 60px;
   margin-top: 10px;
+  justify-self: flex-start;
+  
 
 }
+img{
+  margin: auto;
+}
+.cer{
+  width: 200px;
+  height: 150px;
+
+}
+
 .pad {
   padding: 7px;
 }
