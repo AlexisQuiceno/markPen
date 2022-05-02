@@ -5,6 +5,10 @@
   </div>
   <div class="grid">
     <CardImagenes v-for="(prueba, index) in cards" :key="index.id"
+    :UrlImagen="prueba.imagen"
+    :TituloCard="prueba.titulo"
+    :DescriptionCard="prueba.description"
+
   />
   </div>
   
