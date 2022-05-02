@@ -12,7 +12,7 @@ import { mapState } from 'vuex'
 
 export default {
    computed: {
-    ...mapState(['prueba'] )
+    ...mapState(['prueba'] ),
   },
 
   components: {
@@ -24,6 +24,7 @@ export default {
 </script>
 
 <style scoped>
+
 
 
 </style>
