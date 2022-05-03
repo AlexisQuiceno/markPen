@@ -23,11 +23,11 @@
   color: #363232;
 }
 .con {
-  padding-block-start: 6rem;
+  padding-block-start: 1rem;
 }
 nav {
   padding: 30px;
-  background: #a4c7eb;
+  background: rgba(0, 0, 0, .5);
   color: black;
   letter-spacing: 3px;
   text-align: center;

@@ -1,7 +1,7 @@
 <template>
 <div >
   <div class="position">
-    <slider-component class="tamanio"/>
+    <slider-component class="tamanio w-full"/>
   </div>
   <div class="grid margen">
     <CardImagenes v-for="(prueba, index) in cards" :key="index.id"
@@ -35,12 +35,11 @@ export default {
 <style scoped>
 
 .tamanio{
-  width: 65%; 
+ z-index: 1;
+ margin-top: 0%;
 }
 .position{
   display: flex;
-  justify-content: center;
-  margin-top: auto;
 }
 .grid{
   grid-template-columns: 400px 400px 400px;
