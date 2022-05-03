@@ -23,7 +23,7 @@
 		</section>
 	</div>
 
-	<div class="drop-shadow-md8">
+	<div class="drop-shadow-md8 shadow-lg">
 		<section class="text-blueGray-700 bg-white mt-20 ">
 			<div class="container flex flex-col items-center px-5 py-0 mx-auto md:flex-row lg:px-28">
 				<div class="w-full lg:w-1/3 lg:max-w-lg md:w-1/2 px-5">

@@ -68,7 +68,7 @@
                 <div>
                     <img class="object-cover rounded-xl h-64 w-full" src="https://images.unsplash.com/photo-1499470932971-a90681ce8530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
                     
-                    <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">Yonier Alexis</h1>
+                    <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">Yonier Alexis Quiceno </h1>
                     
                     <p class="mt-2 text-gray-500 capitalize dark:text-gray-300">Tecnolog en sistemas <br> programador <br> Estudiante de Big Data</p>
                     <div class="flex mt-8 space-x-6 text-gray-600">

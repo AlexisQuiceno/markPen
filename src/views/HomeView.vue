@@ -3,13 +3,12 @@
   <div class="position">
     <slider-component class="tamanio"/>
   </div>
-  <div class="grid">
+  <div class="grid margen">
     <CardImagenes v-for="(prueba, index) in cards" :key="index.id"
     :UrlImagen="prueba.imagen"
     :TituloCard="prueba.titulo"
     :DescriptionCard="prueba.description"
-
-  />
+    />
   </div>
   
 </div>
@@ -44,12 +43,15 @@ export default {
   margin-top: auto;
 }
 .grid{
-  
   grid-template-columns: 400px 400px 400px;
   margin: 80px;
   margin-top: 10px
   
-  
+}
+.margen {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
 }
 </style>
 
