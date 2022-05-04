@@ -3,7 +3,7 @@
   <div class="position">
     <slider-component class="tamanio"/>
   </div>
-  <div class="grid margen">
+  <div class="grid ">
     <CardImagenes v-for="(prueba, index) in cards" :key="index.id"
     :UrlImagen="prueba.imagen"
     :TituloCard="prueba.titulo"
@@ -47,11 +47,6 @@ export default {
   margin: 80px;
   margin-top: 10px
   
-}
-.margen {
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
 }
 </style>
 
