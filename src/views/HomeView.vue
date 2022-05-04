@@ -1,7 +1,10 @@
 <template>
-<div >
+<div class="position1">
   <div class="position">
-    <slider-component class="tamanio w-full"/>
+    <slider-component class="tamanio w-full "
+    />
+    <img src="../assets/fiestasEquinas.jpg">
+    
   </div>
   <div class="grid margen">
     <CardImagenes v-for="(prueba, index) in cards" :key="index.id"
@@ -37,9 +40,16 @@ export default {
 .tamanio{
  z-index: 1;
  margin-top: 0%;
+ height: max-content;
 }
 .position{
   display: flex;
+  position: relative;
+ 
+}
+.position1{
+  position: relative;
+  
 }
 .grid{
   grid-template-columns: 400px 400px 400px;
@@ -51,6 +61,18 @@ export default {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
+}
+img{
+  position: absolute;
+  height: 320px;
+  top: 120px;
+  left: 100px;
+  width:320px;
+  z-index:99;
+  opacity: 0.8;
+  border-radius: 30px;
+    
+  ;
 }
 </style>
 
