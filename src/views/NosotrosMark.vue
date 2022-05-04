@@ -17,10 +17,12 @@ export default {
 }
 
 </script>
+
 <style scoped>
 
   .margenes {
     padding-top: 1%;
     padding-bottom: 2%;
   }
+  
 </style>

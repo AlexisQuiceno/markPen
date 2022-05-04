@@ -1,8 +1,8 @@
 <template>
 <div class="carousel ">
-    <div class="carousel-inner">
+    <div class="carousel-inner ">
         <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
-        <div class="carousel-item">
+        <div class="carousel-item ">
             <img src="../assets/nochePensilvania.jpeg">
         </div>
         <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">

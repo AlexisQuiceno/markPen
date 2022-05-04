@@ -27,7 +27,7 @@
 }
 nav {
   padding: 30px;
-  background: rgba(0, 0, 0, .5);
+  background: linear-gradient(to right, rgb(133, 175, 209) 0%, rgba(255,255,255,0) 100%);
   color: black;
   letter-spacing: 3px;
   text-align: center;
