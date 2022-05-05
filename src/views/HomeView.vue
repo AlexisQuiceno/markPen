@@ -15,10 +15,6 @@
     :DescriptionCard="prueba.description"
     />
   </div>
-
-  <div>
-    <CarruselPrueba/>
-  </div>
   
 </div>
  
@@ -27,14 +23,12 @@
 <script lang="ts">
 import CardImagenes from '@/components/CardImagenes.vue';
 import SliderComponent from '@/components/SliderComponent.vue';
-import CarruselPrueba from '@/components/CarruselPrueba.vue';
 import {mapState} from 'vuex';
 
 export default {
   components: {
     CardImagenes,
     SliderComponent,
-    CarruselPrueba,
   },
   computed: {
     ...mapState(['cards']),
