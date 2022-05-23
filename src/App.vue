@@ -1,11 +1,13 @@
 <template>
 <div>
     <nav>
+      <!--
       <router-link to="/inicio">INICIO</router-link>  |  
       <router-link to="/contactenos">CONTACTENOS</router-link>  |  
       <router-link to="/servicios">SERVICIOS</router-link>  |  
-      <router-link to="/productos">PRODUCTOS</router-link>  |  
-      <router-link to="/nosotros">NOSOTROS</router-link>  |  
+      <router-link to="/productos">LUGARES DE INTERES</router-link>  |  
+      <router-link to="/nosotros">NOSOTROS</router-link>  |  -->
+      <nav-bar/>
     </nav>
     <router-view class="con"/>
     <footer>
@@ -52,10 +54,13 @@ nav a.router-link-exact-active {
 </style>
 <script lang="ts">
 import FooterCom from '@/components/FooterCom.vue';
+import NavBar from '@/components/NavBar.vue';
+
 
 export default {
   components: {
     FooterCom,
+    NavBar,
   },
 }
 

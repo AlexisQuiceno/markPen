@@ -2,12 +2,9 @@
 <div class="position1">
   <div class="position">
     <slider-component class="tamanio w-full "
-  />
+    />
+    
   </div>
-   <div>
-      <SliderNboo/>
-    </div>
- 
   <div class="grid ">
     <CardImagenes v-for="(prueba, index) in fristImpre" :key="index.id"
     :UrlImagen="prueba.imagen"
@@ -15,7 +12,7 @@
     :DescriptionCard="prueba.description"
     />
   </div>
-   
+  
 </div>
  
 </template>
@@ -23,7 +20,6 @@
 <script lang="ts">
 import CardImagenes from '@/components/CardImagenes.vue';
 import SliderComponent from '@/components/SliderComponent.vue';
-import SliderNboo from '@/components/SliderNboo.vue';
 
 import {mapState} from 'vuex';
 
@@ -31,7 +27,6 @@ export default {
   components: {
     CardImagenes,
     SliderComponent,
-    SliderNboo,
   },
   computed: {
     ...mapState(['fristImpre']),
@@ -81,4 +76,3 @@ p{
   z-index:99;
 }
 </style>
-
