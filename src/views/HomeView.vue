@@ -3,6 +3,7 @@
   <div class="position">
     <slider-component class="tamanio w-full "
     />
+    <SliderN/>
     <div>
       <img src="../assets/fiestasEquinas.jpg">
     </div>

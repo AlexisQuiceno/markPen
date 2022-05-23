@@ -33,6 +33,6 @@
 
 <style scoped>
 .fondo {
-  background: url('../assets/cambiarNubesArbolda.png');
+  background: url('../assets/paisajeRojo.JPG');
 }
 </style>
