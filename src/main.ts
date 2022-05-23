@@ -8,4 +8,5 @@ import '@/assets/css/tailwind.css'
 
 
 
+
 createApp(App).use(store).use(router).mount('#app')
