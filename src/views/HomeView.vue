@@ -6,7 +6,7 @@
     
   </div>
   <div class="grid ">
-    <CardImagenes v-for="(prueba, index) in cards" :key="index.id"
+    <CardImagenes v-for="(prueba, index) in fristImpre" :key="index.id"
     :UrlImagen="prueba.imagen"
     :TituloCard="prueba.titulo"
     :DescriptionCard="prueba.description"
@@ -29,7 +29,7 @@ export default {
     SliderComponent,
   },
   computed: {
-    ...mapState(['cards']),
+    ...mapState(['fristImpre']),
 
   }
 }
