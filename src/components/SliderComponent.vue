@@ -71,6 +71,8 @@
     display: block;
     height: auto;
     max-width: 100%;
+     opacity: 100;
+    
 }
 
 .carousel-control {
@@ -158,6 +160,7 @@
     z-index: 9999;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
 }
+
 
 
 </style>

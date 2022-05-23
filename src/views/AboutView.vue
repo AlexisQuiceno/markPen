@@ -1,16 +1,22 @@
 <template>
-  <div>
-  <ContactoForm/>
+  <div class="tamanio">
+  <NuevoContact/>
   </div>
 </template>
 
 <script lang="ts">
-import ContactoForm from '@/components/ContactoForm.vue';
+import NuevoContact from '@/components/NuevoContact.vue';
 
 export default {
   components: {
-    ContactoForm,
+    NuevoContact,
   },
 }
 
 </script>
+ <style scoped>
+  .tamanio {
+  padding-top: 7%;
+
+  }
+ </style>

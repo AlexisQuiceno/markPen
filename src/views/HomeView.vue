@@ -3,7 +3,9 @@
   <div class="position">
     <slider-component class="tamanio w-full "
     />
-    <img src="../assets/fiestasEquinas.jpg">
+    <div>
+      <img src="../assets/fiestasEquinas.jpg">
+    </div>
     
   </div>
   <div class="grid ">
@@ -62,7 +64,7 @@ export default {
   padding-right: 0;
   padding-top: 0;
 }
-img{
+img {
   position: absolute;
   height: 320px;
   top: 120px;
@@ -71,8 +73,9 @@ img{
   z-index:99;
   opacity: 0.8;
   border-radius: 30px;
-    
-  ;
+}
+p{
+  z-index:99;
 }
 </style>
 
