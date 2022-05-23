@@ -3,9 +3,6 @@
   <div class="position">
     <slider-component class="tamanio w-full "
     />
-    <div>
-      <img src="../assets/fiestasEquinas.jpg">
-    </div>
     
   </div>
   <div class="grid ">
@@ -23,6 +20,7 @@
 <script lang="ts">
 import CardImagenes from '@/components/CardImagenes.vue';
 import SliderComponent from '@/components/SliderComponent.vue';
+
 import {mapState} from 'vuex';
 
 export default {
