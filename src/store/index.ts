@@ -15,7 +15,9 @@ export default createStore({
       {titulo: 'titulo 8', description:'Lorem ipsum....', imagen: require('../assets/nocheA.png')},
     ], 
     fristImpre: [
-      {titulo:'titulo 1',description: 'Lorem ipsum i dole....',imagen:require('../assets/cambiarNubesArbolda.png')}
+      {titulo:'titulo 1',description: 'Lorem ipsum i dole....',imagen:require('../assets/chorrillos.png')},
+     
+
     ] 
 
   },
