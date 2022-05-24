@@ -8,8 +8,12 @@
   <div class="grid ">
     <CardImagenes v-for="(prueba, index) in fristImpre" :key="index.id"
     :UrlImagen="prueba.imagen"
+    :lugar="prueba.lugar"
     :TituloCard="prueba.titulo"
     :DescriptionCard="prueba.description"
+    :hashtag1="prueba.hashtag1"
+    :hashtag2="prueba.hashtag2"
+    :hashtag3="prueba.hashtag3"
     />
   </div>
   

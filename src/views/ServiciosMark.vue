@@ -6,7 +6,7 @@
     </div> 
 </template>
 
-<script >
+<script>
 import ServiciosComponets from '@/components/ServiciosComponets.vue'
 import { mapState } from 'vuex'
 
@@ -19,7 +19,6 @@ export default {
     ServiciosComponets,
   },
 }
-
 
 </script>
 

@@ -15,9 +15,30 @@ export default createStore({
       {titulo: 'titulo 8', description:'Lorem ipsum....', imagen: require('../assets/nocheA.png')},
     ], 
     fristImpre: [
-      {titulo:'titulo 1',description: 'Lorem ipsum i dole....',imagen:require('../assets/chorrillos.png')},
-     
+      {titulo:'Fiestas Equinas', lugar: "Pensilvania" ,description: 
+      'La cita anual en nuestro pueblo, disfrutar de los mejores esponentes en el arte Equino y los mejores ejemplares',imagen:require('../assets/fiestasEquinas.jpg'),
+      hashtag1: 'Licor', hashtag2: 'Fiesta', hashtag3: 'Campo'},
 
+      {titulo:'Cascada Chorrillos', lugar: "Arboleda" ,description: 
+      'un hermoso lugar en las afueras de arboleda en donde podras pasar un hermoso dia',imagen:require('../assets/chorrillos.png'),
+      hashtag1: 'Casacada', hashtag2: 'Naturaleza', hashtag3: 'Campo'},
+
+      {titulo:'Avistamiento de aves', lugar: "Pensilvania " ,description: 
+      'un hermoso lugar en las afueras de arboleda en donde podras pasar un hermoso dia',imagen:require('../assets/chorrillos.png'),
+
+      hashtag1: 'Montañas', hashtag2: 'Naturaleza', hashtag3: 'Tranquilidad'},
+
+      {titulo:'Cascada Chorrillos', lugar: "Arboleda" ,description: 
+      'un hermoso lugar en las afueras de arboleda en donde podras pasar un hermoso dia',imagen:require('../assets/chorrillos.png'),
+      hashtag1: 'Casacada', hashtag2: 'Naturaleza', hashtag3: 'Campo'},
+
+      {titulo:'Cascada Chorrillos', lugar: "Arboleda" ,description: 
+      'un hermoso lugar en las afueras de arboleda en donde podras pasar un hermoso dia',imagen:require('../assets/chorrillos.png'),
+      hashtag1: 'Casacada', hashtag2: 'Naturaleza', hashtag3: 'Campo'},
+
+      {titulo:'Cascada Chorrillos', lugar: "Arboleda" ,description: 
+      'un hermoso lugar en las afueras de arboleda en donde podras pasar un hermoso dia',imagen:require('../assets/chorrillos.png'),
+      hashtag1: 'Casacada', hashtag2: 'Naturaleza', hashtag3: 'Campo'},
     ] 
 
   },
