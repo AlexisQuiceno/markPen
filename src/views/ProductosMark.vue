@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="poci">
     <h1 class="text-5xl text-center font-semibold">
         <span class="text-indigo-500 tracking-wide">MarkPen </span>
     </h1>
@@ -22,5 +22,8 @@ export default {
 
 </script>
 <style scoped>
+.poci{
+  padding-top: 110px;
+}
 
 </style>

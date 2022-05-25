@@ -56,7 +56,7 @@
 
 
 
-<script >
+<script>
 // Navbar Toggle
 document.addEventListener('DOMContentLoaded', function () {
 
@@ -82,3 +82,6 @@ document.addEventListener('DOMContentLoaded', function () {
   
   });
   </script>
+
+  <style scoped>
+  </style>

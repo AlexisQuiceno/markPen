@@ -1,5 +1,5 @@
-<template>
-    <div class="tamanio"> 
+<template >
+    <div class="tamanio poci"> 
     <br>
       <p>{{prueba}}</p>
       <ServiciosComponets/>
@@ -25,6 +25,8 @@ export default {
 <style scoped>
 .tamanio{
 }
-
+.poci{
+  padding-top: 100px;
+}
 
 </style>

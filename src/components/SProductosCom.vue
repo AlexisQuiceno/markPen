@@ -206,3 +206,6 @@
 <!-- Does this resource worth a follow? -->
 
 </template>
+
+<style scoped>
+</style>

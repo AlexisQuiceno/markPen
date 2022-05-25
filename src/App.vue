@@ -12,6 +12,10 @@
     <nav-bar/>
     </header>
 
+    <body >
+      
+    </body>
+
     <router-view class="con"/>
     <footer>
       <FooterCom/>
@@ -27,6 +31,7 @@
   text-align: center;
   color: #363232;
 }
+
 .con {
   padding-block-start: 1rem;
 }
