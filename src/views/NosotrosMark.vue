@@ -1,5 +1,5 @@
 <template>
-    <div class="margenes">
+    <div class="margenes poci">
         <QuienesSomos/>
         <NuestroEquipo/>
     <SliderNboo/>
@@ -24,9 +24,10 @@ export default {
 </script>
 
 <style scoped>
-
+  .poci{
+    padding-top: 100px;
+  }
   .margenes {
-    padding-top: 1%;
     padding-bottom: 2%;
   }
   

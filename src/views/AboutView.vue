@@ -16,7 +16,7 @@ export default {
 </script>
  <style scoped>
   .tamanio {
-  padding-top: 7%;
+  padding-top: 110px;
 
   }
  </style>

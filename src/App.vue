@@ -1,14 +1,21 @@
 <template>
 <div>
-    <nav>
-      <!--
+    <!--
+      <nav>
       <router-link to="/inicio">INICIO</router-link>  |  
       <router-link to="/contactenos">CONTACTENOS</router-link>  |  
       <router-link to="/servicios">SERVICIOS</router-link>  |  
       <router-link to="/productos">LUGARES DE INTERES</router-link>  |  
-      <router-link to="/nosotros">NOSOTROS</router-link>  |  -->
-      <nav-bar/>
-    </nav>
+      <router-link to="/nosotros">NOSOTROS</router-link>  |  
+    </nav> -->
+    <header class="narbar">
+    <nav-bar/>
+    </header>
+
+    <body >
+      
+    </body>
+
     <router-view class="con"/>
     <footer>
       <FooterCom/>
@@ -24,11 +31,12 @@
   text-align: center;
   color: #363232;
 }
+
 .con {
   padding-block-start: 1rem;
 }
-nav {
-  padding: 30px;
+.narbar {
+  padding: 2px;
   background: linear-gradient(to right, rgb(133, 175, 209) 0%, rgba(255,255,255,0) 100%);
   color: black;
   letter-spacing: 3px;

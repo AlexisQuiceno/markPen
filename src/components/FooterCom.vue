@@ -37,8 +37,8 @@
              Intereses
           </p>
           <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-            <a class="hover:opacity-75" href> Sitios de interes </a>
-            <a class="hover:opacity-75" href> Productos </a>
+            <a class="hover:opacity-75" href=""> Sitios de interes </a>
+            <a class="hover:opacity-75" href=""> Productos </a>
           </nav>
         </div>
         <div>
@@ -46,8 +46,8 @@
             Compania
           </p>
           <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-            <a class="hover:opacity-75" href> Nosotros </a>
-            <a class="hover:opacity-75" href> Contactos </a>
+            <a class="hover:opacity-75" href=""> Nosotros </a>
+            <a class="hover:opacity-75" href=""> Contactos </a>
           </nav>
         </div>
         
@@ -56,8 +56,8 @@
             Otros
           </p>
           <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-            <a class="hover:opacity-75" href> Equipo </a>
-            <a class="hover:opacity-75" href> Inicio </a>
+            <a class="hover:opacity-75" href=""> Equipo </a>
+            <a class="hover:opacity-75" href=""> Inicio </a>
           </nav>
         </div>
 
@@ -66,7 +66,7 @@
             Legal
           </p>
           <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-            <a class="hover:opacity-75" href> Politicas de Privacidad </a>
+            <a class="hover:opacity-75" href=""> Politicas de Privacidad </a>
           </nav>
         </div>
       </div>
@@ -77,3 +77,6 @@
   </div>
 </footer>
 </template>
+
+<style scoped>
+</style>

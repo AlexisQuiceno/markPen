@@ -3,10 +3,9 @@
 <section class="w-full text-gray-900 py-36 bg-center bg-cover bg-no-repeat fondo">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-4 flex items-center justify-center">
         <div class="lg:w-3/6 lg:pr-0 pr-0">
-            <h1 class="font-medium text-5xl text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+            <h1 class="font-medium text-5xl text-white">Habla con nosotros y mejora el alcance de tu local </h1>
             <p class="leading-relaxed mt-4 text-white">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </p>
         </div>
         <div class="lg:w-3/6 xl:w-2/5 md:w-full bg-gray-50 p-8 flex flex-col lg:ml-auto w-full mt-10 lg:mt-0 rounded-md">
             <div class="relative mb-4">
@@ -33,6 +32,6 @@
 
 <style scoped>
 .fondo {
-  background: url('../assets/paisajeRojo.JPG');
+  background: url('../assets/puentebosque.jpeg');
 }
 </style>

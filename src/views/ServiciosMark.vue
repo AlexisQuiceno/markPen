@@ -1,12 +1,12 @@
-<template>
-    <div class="tamanio"> 
+<template >
+    <div class="tamanio poci"> 
     <br>
       <p>{{prueba}}</p>
       <ServiciosComponets/>
     </div> 
 </template>
 
-<script >
+<script>
 import ServiciosComponets from '@/components/ServiciosComponets.vue'
 import { mapState } from 'vuex'
 
@@ -20,12 +20,13 @@ export default {
   },
 }
 
-
 </script>
 
 <style scoped>
 .tamanio{
 }
-
+.poci{
+  padding-top: 100px;
+}
 
 </style>
