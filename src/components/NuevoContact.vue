@@ -32,6 +32,6 @@
 
 <style scoped>
 .fondo {
-  background: url('../assets/puentebosque.jpeg');
+  background: url('../assets/paisajeRojo.png');
 }
 </style>
