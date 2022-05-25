@@ -12,6 +12,7 @@
     "bootstrap-vue": "^2.22.0",
     "core-js": "^3.8.3",
     "jquery": "^3.6.0",
+    "mdb-vue-ui-kit": "^1.13.0",
     "popper.js": "^1.16.1",
     "tailwindcss": "^3.0.24",
     "vue": "^3.2.33",

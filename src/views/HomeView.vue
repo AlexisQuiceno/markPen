@@ -1,8 +1,9 @@
 <template>
 <div class="position1">
   <div class="position">
-    <slider-component class="tamanio w-full "
-    />
+    <!--<slider-component class="tamanio w-full "
+    />-->
+    <slider-nboo class="place-content-cente w-full"/>
     
   </div>
   <div class="grid ">
@@ -16,6 +17,8 @@
     :hashtag3="prueba.hashtag3"
     />
   </div>
+
+  <NosCom/>
   
 </div>
  
@@ -23,14 +26,18 @@
 
 <script lang="ts">
 import CardImagenes from '@/components/CardImagenes.vue';
-import SliderComponent from '@/components/SliderComponent.vue';
+import NosCom from '@/components/NosCom.vue';
+import SliderNboo from '@/components/SliderNboo.vue';
+
+
 
 import {mapState} from 'vuex';
 
 export default {
   components: {
     CardImagenes,
-    SliderComponent,
+    NosCom,
+    SliderNboo,
   },
   computed: {
     ...mapState(['fristImpre']),
@@ -58,8 +65,8 @@ export default {
 .grid{
   grid-template-columns: 400px 400px 400px;
   margin: 80px;
-  margin-top: 10px
-  
+  margin-top: 10px,
+    
 }
 .margen {
   padding-left: 0;
