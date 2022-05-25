@@ -35,24 +35,24 @@ export default createStore({
       hashtag1: 'Licor', hashtag2: 'Fiesta', hashtag3: 'Campo'},
 
       {titulo:'Cascada Chorrillos', lugar: "Arboleda" ,description: 
-      'un hermoso lugar en las afueras de arboleda en donde podras pasar un hermoso dia',imagen:require('../assets/chorrillos.png'),
+      'un hermoso lugar en las afueras de arboleda en donde podras pasar un hermoso diá',imagen:require('../assets/chorrillos.png'),
       hashtag1: 'Casacada', hashtag2: 'Naturaleza', hashtag3: 'Campo'},
 
       {titulo:'Avistamiento de aves', lugar: "Pensilvania " ,description: 
       'Disfruta de las hermosas aves que se pueden ver en nuestro municipio',imagen:require('../assets/pajarito2.png'),
       hashtag1: 'Fauna', hashtag2: 'Naturaleza', hashtag3: 'Senderismo'},
 
-      {titulo:'Cascada Chorrillos', lugar: "Arboleda" ,description: 
-      'un hermoso lugar en las afueras de arboleda en donde podras pasar un hermoso dia',imagen:require('../assets/chorrillos.png'),
-      hashtag1: 'Casacada', hashtag2: 'Naturaleza', hashtag3: 'Campo'},
+      {titulo:'Puente del bosque ', lugar: "Pensilvania" ,description: 
+      'En lugar de interes turistigo en el cuel puesde pasar un lindo dia con tu familia',imagen:require('../assets/puentebosque.jpeg'),
+      hashtag1: 'Senderismo', hashtag2: 'Naturaleza', hashtag3: 'Rio'},
 
-      {titulo:'Cascada Chorrillos', lugar: "Arboleda" ,description: 
-      'un hermoso lugar en las afueras de arboleda en donde podras pasar un hermoso dia',imagen:require('../assets/chorrillos.png'),
-      hashtag1: 'Casacada', hashtag2: 'Naturaleza', hashtag3: 'Campo'},
+      {titulo:'San Daniel', lugar: "Pensilvania" ,description: 
+      'Un lindo corregimiento, serca del rio tenerife y con multiples actividades a realizar como el glamping',imagen:require('../assets/sanDanielDistante.png'),
+      hashtag1: 'Fiesta', hashtag2: 'Naturaleza', hashtag3: 'Campo'},
 
-      {titulo:'Cascada Chorrillos', lugar: "Arboleda" ,description: 
-      'un hermoso lugar en las afueras de arboleda en donde podras pasar un hermoso dia',imagen:require('../assets/chorrillos.png'),
-      hashtag1: 'Casacada', hashtag2: 'Naturaleza', hashtag3: 'Campo'},
+      {titulo:'Cabañas Confa', lugar: "Pensilvania" ,description: 
+      'Un lugar tranquilo en el cual poder pasar unas buenas bacaciones con tus seres queridos',imagen:require('../assets/bosque2.jpeg'),
+      hashtag1: 'Felicidad ', hashtag2: 'Naturaleza', hashtag3: 'Tranquilidad'},
     ] 
 
   },
