@@ -3,7 +3,7 @@
     v-model="carousel1"
     :items="items1"
     fade
-  
+    
   />
 </template>
 
