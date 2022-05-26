@@ -2,7 +2,7 @@
 <div class="tar">
   <div class="tamanio">
     <div v-for="(prueba, index) in cards" :key="index.id" class="pad">  
-        <div class="rounded overflow-hidden shadow-lg bg-zinc-400">
+      <div class="rounded overflow-hidden shadow-lg bg-zinc-100">
         <img class="w-9/12 cer" :src='prueba.imagen' :alt='prueba.imagen'>
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">{{ prueba.titulo }}</div>

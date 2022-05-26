@@ -3,7 +3,7 @@
     v-model="carousel1"
     :items="items1"
     fade
-    
+    dark
   />
 </template>
 
@@ -18,24 +18,25 @@
     setup() {
       const items1 = [
         {
-          src: require('../assets/nochePensilvania3.png'),
+          src: "https://mdbootstrap.com/img/Photos/Slides/img%20(15).webp",
           alt: "...",
-          label: "¡¡NO SABES QUE HACER!!",
-          caption: "QUE HAY PA' HACER EN PENSILVANIA",
+          label: "First slide label",
+          caption: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
           interval: 3000,
         },
         {
-          src:  require('../assets/bosque3.png'),
+          src: "https://mdbootstrap.com/img/Photos/Slides/img%20(22).webp",
           alt: "...",
-          label: "DISFRUTA UN BUEN FIN DE SEMANA EN FAMILIA ",
-          caption: "CABAÑAS DE CONFA, UN BUEN SITIO PARA RELAJARTE",
+          label: "Second slide label",
+          caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           interval: 3000,
         },
         {
-          src: require('../assets/chiva3.png'),
+          src: "https://mdbootstrap.com/img/Photos/Slides/img%20(23).webp",
           alt: "...",
-          label: "VIAJA EN NUESTRAS CHIVAS ",
-          caption:"PARA CONOCER MAS LUGARES DE NUESTRO MUNICIPIO",
+          label: "Third slide label",
+          caption:
+            "Praesent commodo cursus magna, vel scelerisque nisl consectetur.",
             interval: 3000,
         }
       ];
@@ -50,8 +51,5 @@
 
 
 <style scoped>
-
-
-
 
 </style>
