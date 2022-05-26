@@ -3,7 +3,7 @@
   <div class="position">
     <!--<slider-component class="tamanio w-full "
     />-->
-    <slider-nboo class="place-content-cente w-full"/>
+    <slider-nboo class="place-content-cente w-full "/>
     
   </div>
   <div class="grid ">

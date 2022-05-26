@@ -18,21 +18,21 @@
     setup() {
       const items1 = [
         {
-          src: require('../assets/nochePensilvania3.png'),
+          src: require('../assets/nochePensilvania3 (1).png'),
           alt: "...",
           label: "¡¡NO SABES QUE HACER!!",
           caption: "QUE HAY PA' HACER EN PENSILVANIA",
           interval: 3000,
         },
         {
-          src:  require('../assets/bosque3.png'),
+          src:  require('../assets/bosque3 (1).png'),
           alt: "...",
           label: "DISFRUTA UN BUEN FIN DE SEMANA EN FAMILIA ",
           caption: "CABAÑAS DE CONFA, UN BUEN SITIO PARA RELAJARTE",
           interval: 3000,
         },
         {
-          src: require('../assets/chiva3.png'),
+          src: require('../assets/chiva3 (1).png'),
           alt: "...",
           label: "VIAJA EN NUESTRAS CHIVAS ",
           caption:"PARA CONOCER MAS LUGARES DE NUESTRO MUNICIPIO",
@@ -49,9 +49,3 @@
 </script>
 
 
-<style scoped>
-
-
-
-
-</style>
