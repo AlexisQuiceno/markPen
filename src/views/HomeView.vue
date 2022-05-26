@@ -56,6 +56,8 @@ export default {
 .position{
   display: flex;
   position: relative;
+  
+  width: 100%;
  
 }
 .position1{

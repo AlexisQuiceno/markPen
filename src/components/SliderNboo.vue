@@ -18,25 +18,24 @@
     setup() {
       const items1 = [
         {
-          src: "https://mdbootstrap.com/img/Photos/Slides/img%20(15).webp",
+          src: require('../assets/nochePensilvania3.png'),
           alt: "...",
-          label: "First slide label",
-          caption: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+          label: "¡¡NO SABES QUE HACER!!",
+          caption: "QUE HAY PA' HACER EN PENSILVANIA",
           interval: 3000,
         },
         {
-          src: "https://mdbootstrap.com/img/Photos/Slides/img%20(22).webp",
+          src:  require('../assets/bosque3.png'),
           alt: "...",
-          label: "Second slide label",
-          caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+          label: "DISFRUTA UN BUEN FIN DE SEMANA EN FAMILIA ",
+          caption: "CABAÑAS DE CONFA, UN BUEN SITIO PARA RELAJARTE",
           interval: 3000,
         },
         {
-          src: "https://mdbootstrap.com/img/Photos/Slides/img%20(23).webp",
+          src: require('../assets/chiva3.png'),
           alt: "...",
-          label: "Third slide label",
-          caption:
-            "Praesent commodo cursus magna, vel scelerisque nisl consectetur.",
+          label: "VIAJA EN NUESTRAS CHIVAS ",
+          caption:"PARA CONOCER MAS LUGARES DE NUESTRO MUNICIPIO",
             interval: 3000,
         }
       ];
@@ -51,5 +50,8 @@
 
 
 <style scoped>
+
+
+
 
 </style>
