@@ -18,21 +18,21 @@
     setup() {
       const items1 = [
         {
-          src: "https://mdbootstrap.com/img/Photos/Slides/img%20(15).webp",
+          src: require('../assets/nochePensilvania3 (1).png'),
           alt: "...",
           label: "First slide label",
           caption: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
           interval: 3000,
         },
         {
-          src: "https://mdbootstrap.com/img/Photos/Slides/img%20(22).webp",
+          src:  require('../assets/bosque3 (1).png'),
           alt: "...",
           label: "Second slide label",
           caption: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
           interval: 3000,
         },
         {
-          src: "https://mdbootstrap.com/img/Photos/Slides/img%20(23).webp",
+          src: require('../assets/chiva3 (1).png'),
           alt: "...",
           label: "Third slide label",
           caption:
@@ -48,8 +48,3 @@
     }
   };
 </script>
-
-
-<style scoped>
-
-</style>

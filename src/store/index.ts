@@ -8,7 +8,7 @@ export default createStore({
       {titulo: 'Aguas Vereda La Torre-Arboleda', description:'Lorem ipsum....', imagen: require('../assets/torreCaudal2.png'),
       hashtag1: 'Licor', hashtag2: 'Fiesta', hashtag3: 'Campo'},
 
-      {titulo: 'titulo 2', description:'Lorem ipsum....', imagen: require('../assets/bosque21.jpeg'),
+      {titulo: 'titulo 2', description:'Lorem ipsum....', imagen: require('../assets/cambiarNubesArbolda.png'),
       hashtag1: 'Licor', hashtag2: 'Fiesta', hashtag3: 'Campo'},
 
       {titulo: 'titulo 3', description:'Lorem ipsum....', imagen: require('../assets/coordillera.png'),
@@ -53,7 +53,7 @@ export default createStore({
       hashtag1: 'Fiesta', hashtag2: 'Naturaleza', hashtag3: 'Campo'},
 
       {titulo:'Cabañas Confa', lugar: "Pensilvania" ,description: 
-      'Un lugar tranquilo en el cual poder pasar unas buenas bacaciones con tus seres queridos',imagen:require('../assets/bosque2.jpeg'),
+      'Un lugar tranquilo en el cual poder pasar unas buenas bacaciones con tus seres queridos',imagen:require('../assets/bosque21.jpeg'),
       hashtag1: 'Felicidad ', hashtag2: 'Naturaleza', hashtag3: 'Tranquilidad'},
     ] 
 
