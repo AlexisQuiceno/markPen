@@ -9,14 +9,14 @@
           <div class="md:flex items-center justify-center md:w-2/3 md:bg-white">
             <div class="py-6 px-8 md:py-0">
               <h2 class="text-gray-700 text-2xl font-bold md:text-black">
-                Publicidad Evento Unico.
+                Publicidad Evento Único.
               </h2>
               <p class="mt-2 text-gray-600 md:text-gray-600">
-                Publique un evento unico para usted, su negocio, o municipio.
+                Publique un evento único para usted, su negocio, o municipio.
               </p>
             </div>
             <div class="flex flex-wrap py-6 px-8 sm:px-1 md:px-0 md:py-0 text-base md:text-sm mb-2">
-                <div class="w-2/2 sm:w-2/2 md:w-1/2 lg:w-2/2 xl:w-1/2 mb-2  h-12">&check; Consiertos </div>
+                <div class="w-2/2 sm:w-2/2 md:w-1/2 lg:w-2/2 xl:w-1/2 mb-2  h-12">&check; Conciertos </div>
                 <div class="w-2/2 sm:w-2/2 md:w-1/2 lg:w-2/2 xl:w-1/2 mb-2  h-12">&check; Reuniones </div>
                 <div class="w-2/2 sm:w-2/2 md:w-1/2 lg:w-2/2 xl:w-1/2 mb-2  h-12">&check; Fiestas</div>
                 <div class="w-2/2 sm:w-2/2 md:w-1/2 lg:w-2/2 xl:w-1/2 mb-2  h-12">&check; Torneos deportivos</div>
@@ -40,9 +40,8 @@
                 Comprar
               </a>
               
-              
             </div>
-            <a href="#" class="text-sm text-gray-700 underline">Terminos y condiciones</a>
+            <a href="#" class="text-sm text-gray-700 underline">Términos y condiciones</a>
             
           </div>
         </div>

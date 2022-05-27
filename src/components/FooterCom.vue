@@ -5,7 +5,7 @@
     <div class="grid grid-cols-1 gap-8 lg:grid-cols-3 ">
       <div>
         <p class="max-w-xs mt-4 text-sm text-gray-600">
-          Encuentra mas informacion de nuestra compañia .
+          Encuentra más información de nuestra compañia.
         </p>
         <div class="flex mt-8 space-x-6 text-gray-600">
           <a class="hover:opacity-75" href="https://www.facebook.com/" target="_blank" rel="noreferrer">
@@ -37,13 +37,13 @@
              Intereses
           </p>
           <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-            <a class="hover:opacity-75" href=""> Sitios de interes </a>
+            <a class="hover:opacity-75" href=""> Sitios de interés </a>
             <a class="hover:opacity-75" href=""> Productos </a>
           </nav>
         </div>
         <div>
           <p class="font-medium">
-            Compania
+            Compañía
           </p>
           <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
             <a class="hover:opacity-75" href=""> Nosotros </a>
@@ -66,13 +66,13 @@
             Legal
           </p>
           <nav class="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-            <a class="hover:opacity-75" href=""> Politicas de Privacidad </a>
+            <a class="hover:opacity-75" href=""> Políticas de Privacidad </a>
           </nav>
         </div>
       </div>
     </div>
     <p class="mt-8 text-xs text-gray-800">
-      ©2022 MARKPEN
+      ©2022 ¿Qué Hay Pa' Hacer? Pensilvania 
     </p>
   </div>
 </footer>
