@@ -1,10 +1,13 @@
 <template>
+<div>
   <MDBCarousel
     v-model="carousel1"
     :items="items1"
     fade
-    dark
   />
+
+
+</div>
 </template>
 
 <script>
