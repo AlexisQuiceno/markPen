@@ -26,11 +26,8 @@
 	<div class="drop-shadow-md8 shadow-lg">
 		<section class="text-blueGray-700 bg-white mt-20 ">
 			<div class="container flex flex-col items-center px-5 py-0 mx-auto md:flex-row lg:px-28">
-				<div class="w-full lg:w-1/3 lg:max-w-lg md:w-1/2 px-5">
-					<img class="object-cover object-center rounded-lg " alt="hero" src="../assets/pensilvaniaViejo.png">
-				</div>
 				<div class="flex flex-col items-start mb-16 text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:mb-0">
-					<h1 class="mb-8 text-2xl font-black tracking-tighter text-black md:text-5xl title-font"> Mision</h1>
+					<h1 class="mb-8 text-2xl font-black tracking-tighter text-black md:text-5xl title-font"> Mision y Visión </h1>
 					<p class="mb-8 text-base leading-relaxed text-left text-blueGray-600 ">
 						Buscamos mejorar la relacion de los comercio y personas del municipio y alrededores, así encontra algo novedoso para realizar </p>
 					<div class="flex flex-col justify-center lg:flex-row">
@@ -39,6 +36,9 @@
 						<a href="#" class="inline-flex items-center font-semibold text-blue-600 md:mb-2 lg:mb-0 hover:text-black " title="read more"> Leer mas» </a>
 						</p>
 					</div>
+				</div>
+				<div class="w-full lg:w-1/3 lg:max-w-lg md:w-1/2 px-5">
+					<img class="object-cover object-center rounded-lg " alt="hero" src="../assets/pensilvaniaViejo.png">
 				</div>
 			</div>
 		</section>

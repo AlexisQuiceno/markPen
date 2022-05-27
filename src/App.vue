@@ -60,6 +60,7 @@ nav a.router-link-exact-active {
   color: #0a0a0a;
   
 }
+
 </style>
 <script lang="ts">
 import FooterCom from '@/components/FooterCom.vue';

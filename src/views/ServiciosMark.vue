@@ -26,7 +26,7 @@ export default {
 .tamanio{
 }
 .poci{
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 </style>

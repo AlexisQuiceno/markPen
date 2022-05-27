@@ -23,7 +23,7 @@ export default {
 </script>
 <style scoped>
 .poci{
-  padding-top: 110px;
+  padding-top: 130px;
 }
 
 </style>
