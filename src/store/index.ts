@@ -20,7 +20,9 @@ export default createStore({
       imagen: require('../assets/coordillera.png'),
       hashtag1: 'Licor', hashtag2: 'Fiesta', hashtag3: 'Campo'},
 
-      {titulo: 'titulo 4', description:'Lorem ipsum....', imagen: require('../assets/nubes.png'), 
+      {titulo: 'Vista desde la rioja hacia el nevado del ruiz ',
+       description:'Un bello lugar donde puedes disfrutar de un rico almuerzo con una maravillosa vista de este gran volcan',
+        imagen: require('../assets/nevadoDelRuiz.png'), 
       hashtag1: 'Licor', hashtag2: 'Fiesta', hashtag3: 'Campo'},
 
       {titulo: 'Nombre común: Sirirí Tijereta  Nombre científico: Tyrannus savana.', 
