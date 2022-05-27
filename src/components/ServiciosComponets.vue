@@ -6,7 +6,7 @@
         <img class="w-9/12 cer" :src='prueba.imagen' :alt='prueba.imagen'>
         <div class="px-6 py-4">
           <div class="font-bold text-xl mb-2">{{ prueba.titulo }}</div>
-          <p class="text-gray-700 text-base">{{prueba.description}}</p>
+          <p class="text-gray-700 text-base">{{prueba.lugar}}</p>
           <p class="text-gray-700 text-base">{{prueba.description}}</p>
         </div>
         <div class="px-6 pt-4 pb-2">
